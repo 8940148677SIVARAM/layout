@@ -185,7 +185,7 @@
 		 padding:100px 0;
 		 margin-bottom:-155px;
 		 background-attachment: fixed;
-	     }
+	         }
 		   .banner-content{ 
 		width:60%;
 		}
@@ -230,7 +230,7 @@
 	   .banner-content{
 		   height:300px;
 		  width:60%;
-	   }
+	      }
    
    /*====why choose style===*/
    .why-choose-sect{
@@ -266,7 +266,7 @@
 	   color: #999;
    }
    .why-choose > h1{
-    font-size: 32px;
+        font-size: 32px;
 	margin-bottom: 40px;
 	text-align: left;
 	font-family: 'Raleway',sans-serif;
@@ -304,8 +304,11 @@
 	  margin-bottom: 30px;
   }
   .abt-content > h2{
-	  font-size: 18px;
+	  font-size: 29px;
 	  margin-bottom: 25px;
+	  font-weight: 900;
+	  color: #795548;
+	  
   }
   .abt-content > p{
 	  

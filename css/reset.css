@@ -44,8 +44,8 @@ q:before, q:after {
 	content: none;
 }
 p{
-	line-height: 23px;
-	font-weight: 400;
+	line-height: 22px;
+	font-weight: 300;
 	font-size : 15px;
 }
 h1, h2, h3, h4, h5, h6{

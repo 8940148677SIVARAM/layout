@@ -23,7 +23,7 @@
    }
    .row> *{
 	   
-	   padding:0 15px;
+	   padding: 15px;
    }
    .col-lg-1{
 	   width:8.33%;
@@ -114,8 +114,7 @@
    /*====header style===*/
    .header-top{
 	   background-color:#fff;
-	   border-bottom:solid 1px ;
-
+	   
    }
    .header-info{
 	   background-color:#141313;
@@ -181,15 +180,15 @@
   }
    /*=====banner style====*/
 		.banner-section{
-		 background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("../img/1.jpg");
+		 background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("../img/1.jpg") ;
 		 padding:100px 0;
-		 margin-bottom:-155px;
-		 background-attachment: fixed;
-	         }
-		   .banner-content{ 
-		width:60%;
-		}
-		.banner-content h1{ color:white;
+		 margin-bottom:-140px;
+		 background-attachment: fixed ;
+		 background-size:cover;
+	     }
+		 
+		.banner-content h1{ 
+		color:white;
 		font-size: 48px;
 		font-family:'Raleway',sans-serif;
 		margin-bottom:15px;
@@ -230,7 +229,7 @@
 	   .banner-content{
 		   height:300px;
 		  width:60%;
-	      }
+	   }
    
    /*====why choose style===*/
    .why-choose-sect{
@@ -243,13 +242,13 @@
 		padding: 30px 20px;
         border-radius: 10px;
 		position: relative;
-		z-index: 3;
+		
    }
    .choose-items{
 	    background-color: #fff;
 		border-radius: 10px;
 		padding: 40px 20px;
-		box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 3px 10px #ccc;
 		text-align: center;
 		height: 100%;
    }
@@ -258,16 +257,16 @@
 	   font-size: 35px;
    } 
    .choose-items > h1{
-	   font-size: 22px;
+	   font-size: 20px;
 	   margin-bottom: 35px;
 	   margin-top: 35px;
-	   font-weight: 600;
+	   font-weight: 700;
    }
    .choose-items > p{
 	   color: #999;
    }
    .why-choose > h1{
-        font-size: 32px;
+    font-size: 32px;
 	margin-bottom: 40px;
 	text-align: left;
 	font-family: 'Raleway',sans-serif;
@@ -297,7 +296,7 @@
 	  background-color: #f8feff;
   } 
   .abt-content{
-	  padding: 40px 0px 0px 20px;
+	  padding: 40px 0px 40px 20px;
   }
   .abt-content > h5{
 	  color:#999;
@@ -309,7 +308,6 @@
 	  margin-bottom: 25px;
 	  font-weight: 900;
 	  color: #795548;
-	  
   }
   .abt-content > p{
 	  
@@ -354,10 +352,14 @@
 	  align-items: center;
   }
   .abt-img > i{
-	box-shadow: 0px 0px 0px 15px #00bcd46b;
+	background-color:#00bcd46b;
 	border-radius: 50%;
 	font-size: 30px;
 	color: #fff;
+	height: 70px;
+	text-align: center;
+	width: 70px;
+	line-height: 70px;
   }
   /*===customer===*/
   .customer{
@@ -450,11 +452,12 @@
 		left:0;
 		height:100%;
 		width: 100%;
-		border: 1px solid var(--primary-color);
+		border: 1px solid ;
 		border-radius: 50%;
 		background-color: var(--primary-color);
 		z-index: -1;
 		transform: all .2s ease;
+		transition-duration: 1s;
 	}
 	.service-items h3 a{
 		display: inline-block;
@@ -478,52 +481,148 @@
   
   /*===background start ===*/
   .big{
-	  background-color:black;
+	  background-color:#fff;
+	  margin-bottom: 60px;
+	  margin-top: 60px;
 	   }
   .box{
 	  background-color:white;
-	  height:400px;
 	  padding:20px 20px;
-	  margin:40px 0;
 	  padding-top:170px;
+	  background-image: url('../img/values-1.jpg');
+	  border-radius: 4px;
   }
+  .box1{
+	  background-color:white;
+	  padding:20px 20px;
+	  padding-top:170px;
+	  background-image: url('../img/values-2.jpg');
+	  border-radius: 4px;
+  }
+  .box2{
+	  background-color:white;
+	  padding:20px 20px;
+	  padding-top:170px;
+	  background-image: url('../img/values-3.jpg');
+	  border-radius: 4px;
+  }
+  .box3{
+	  background-color:white;
+	  padding:20px 20px;
+	  padding-top:170px;
+	  background-image: url('../img/values-4.jpg');
+	  border-radius: 4px;
+  }
+  
   .small{
-	  background-color:#ff5821;
-	  height:200px;
+	  background-color: #ffffffe3;
+	  padding: 20px 30px;
+	  border-radius: 4px;
   }
+  .small1{
+	  background-color: #ffffffe3;
+	  padding: 20px 30px;
+	  border-radius: 4px;
+  }
+  .small2{
+	  background-color: #ffffffe3;
+	  padding: 20px 30px;
+	  border-radius: 4px;
+  }
+  .small3{
+	  background-color: #ffffffe3;
+	  padding: 20px 30px;
+	  border-radius: 4px;
+  }
+  
+  .small >h4,.small1 > h4,.small2 > h4,.small3 > h4{
+	  text-align: center;
+	  font-weight: 900;
+  }
+  .small >a,.small1 >a,.small2>a,.small3>a{
+	  font-size:12px;
+	  font-weight: 600;
+  }
+	  .big .box:hover .small{
+	  background:var(--primary-color);
+	}
+	  .big .box1:hover .small1{
+	  background:var(--primary-color);
+	}
+	  .big .box2:hover .small2 {
+	  background:var(--primary-color);
+	}
+	  .big .box3:hover .small3 {
+	  background:var(--primary-color);
+    }
+
   /*====background end===*/
   
   /*===swiping start===*/
   .swipe{
-	   background-color:black;
-	  height:300px;
+	  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('../img/testimonials-bg.jpg');
+	  background-size: cover;
+	  background-position: center;
+	  text-align: center;
+	  font-size: 20px;
+	  color: white;
+	  font-family:sans-serif;
+	  padding: 80px;
   }
-   .2content{
-	    background-color:#ff5821;
-	  height:100px;
-	 
-   }
+   .content2 > img{
+	 border-radius:50%;
+     box-shadow:2px 2px 2px 9px #8080804d; 
+  }
+   
    /*===swiping end===*/
    
    /*===images start===*/
    .adds{
-	     background-color:white;
-	  height:1000px;
+	  background-color:white;
+	  padding: 10px 20px 40px 20px;
    }
-   .3content{
-	     background-color:#ff5821;
-	  height:50px;
+   .content3{
+	  background-color:#fff;
+	  margin-top: 60px;
    }
-   .4content{
-	  background-color:pink;
-	  height:20px;
-	  padding:20px;
+   .content3 > h2{
+	   text-align:center;
+	   font-weight: 900;
+	   font-size: 36px;
    }
-   .adding{
-	  background-color:#ff5821;
-	  height:200px;
-	  margin-top:60px;
+   .content3 > p{
+	   text-align-last: center;
+	   font-family: "Open Sans", sans-serif;
+	   font-size: 16px;
+       font-weight: 400;
+	   
+   }
+   .btn1{
+	  display: inline-block;
+	  text-decoration:none;
+	  color: black;
+	  background-color: #fff;
+	  padding:10px 10px;
+	  text-align:center;
+	  font-size:16px;
+	  border-radius:25px;
+   }
+   .btn1:hover{
+	   background-color: #8ed4e075;
    } 
+   .content4 div.active{
+	   background-color: #8ed4e075;
+   }
+   
+   .content4{
+	  background-color:#fff;
+	  text-align:center;
+   }
+
+   .adding > img{
+	   max-width:100%;
+	   height:auto;
+   }
    /*===images end===*/
    
    /*===film start ===*/

@@ -22,7 +22,6 @@
 	   margin-left:-15px;
    }
    .row> *{
-	   
 	   padding: 15px;
    }
    .col-lg-1{
@@ -646,7 +645,7 @@
 	   background-color:#141313;
 	  height:500px; 
    }
-   .5content{
+   .content5{
 	    background-color:#ff5821;
 	  height:100px;
    }
@@ -662,7 +661,7 @@
 	     background-color:white;
 	  height:500px; 
    }
-   .6content{
+   .content6{
 	     background-color:#ff5821;
 	  height:100px;
    }
@@ -678,7 +677,7 @@
   .para{ background-color:#141313;
    height:800px;
   }
-  .7content{
+  .content7{
 	  background-color:#ff5821;
    height:80px;
   }
@@ -691,7 +690,7 @@
    /*===para end===*/
    
    /*===contact start===*/
-   .8contact{
+   .contact8{
 	    background-color:white;
    height:900px;
    }

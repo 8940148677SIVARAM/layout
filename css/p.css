@@ -21,6 +21,12 @@
 	   margin-right:-15px;
 	   margin-left:-15px;
    }
+   .row1{
+	   display:flex;
+	   flex-wrap:wrap;
+	   margin-right:-15px;
+	   margin-left:-15px;
+   }
    .row> *{
 	   padding: 15px;
    }
@@ -226,8 +232,7 @@
 		box-shadow:1px 0 5px -2px black;
 		}
 	   .banner-content{
-		   height:300px;
-		  width:60%;
+		 padding: 179px 150px 150px 123px;
 	   }
    
    /*====why choose style===*/
@@ -268,7 +273,6 @@
     font-size: 32px;
 	margin-bottom: 40px;
 	text-align: left;
-	font-family: 'Raleway',sans-serif;
 	line-height: 38px;
 	font-weight: 800;
    }
@@ -617,18 +621,21 @@
 	  background-color:#fff;
 	  text-align:center;
    }
- 
+    .adding{
+		width: 100%;
+	}
    .adding > img{
 	   max-width:100%;
 	   height:auto;
    }  
     .text{
-		background-color: #f6f2f2bf;;
+		background-color: #f6f2f2bf;
 		padding:10px;
 	}
 	.tag > i{
 		padding-left: 321px;
 		transform: translatey(-19px);
+		
 	}
 	.text{
 		transform: translatey(-90px);

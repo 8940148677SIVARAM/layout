@@ -618,11 +618,27 @@
 	  background-color:#fff;
 	  text-align:center;
    }
-
+ 
    .adding > img{
 	   max-width:100%;
 	   height:auto;
-   }
+   }  
+    .text{
+		background-color: #f6f2f2bf;;
+		padding:10px;
+	}
+	.tag > i{
+		padding-left: 321px;
+		transform: translatey(-19px);
+	}
+	.text{
+		transform: translatey(-90px);
+        opacity: 0;
+	}
+	
+	.adding:hover .text{
+		opacity:2;
+	}
    /*===images end===*/
    
    /*===film start ===*/

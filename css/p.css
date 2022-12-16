@@ -14,7 +14,9 @@
 	  width:1210px;
 	  margin:0 auto;
 	  padding:0 15px;
-   }
+   }.name-icon>a{
+	  color: black;
+  }
    .row{
 	   display:flex;
 	   flex-wrap:wrap;

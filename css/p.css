@@ -166,14 +166,15 @@
 	display: flex; 
 	justify-content: space-around;
    }
-   .nav-link a{
-	  color: gray;
-  }
+   
   .navsection > a{
 	  display:block;
 	  color:#6335551;
 	  font-size:14px;
 	  padding: 8px 16px;
+  }
+  .nav-link a{
+	  color: gray;
   }
   .nav-link a:hover{
 	  color:#00bcd4;

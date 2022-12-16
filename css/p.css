@@ -166,7 +166,9 @@
 	display: flex; 
 	justify-content: space-around;
    }
-   
+   .nav-link a{
+	  color: gray;
+  }
   .navsection > a{
 	  display:block;
 	  color:#6335551;

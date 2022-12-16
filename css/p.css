@@ -92,7 +92,9 @@
    }
     .align-items-baseline{
 	   align-items:baseline  !important;
-
+   }
+   .justify-content-center{
+	   justify-content: center;
    }
    /*====common style===*/
    .btn{
@@ -164,11 +166,7 @@
 	display: flex; 
 	justify-content: space-around;
    }
-   a{
-	   text-decoration:none;
-	   color:#635551;
-	   font-family:'Open Sans', sans-serif;
-   }
+   
   .navsection > a{
 	  display:block;
 	  color:#6335551;
@@ -178,9 +176,7 @@
   .nav-link a:hover{
 	  color:#00bcd4;
   }
-  li{
-	  display:block;
-  }
+ 
   .nav-link a.active{
 	 color:#00bcd4;
   }
@@ -342,10 +338,10 @@
 	  padding-left: 20px;
   }
   .abt-text > h2{
-	 margin-bottom: 25px;
-         color: #795548;
-         font-size: 21px;
-         font-weight: 600;
+	margin-bottom: 25px;
+    color: #795548;
+    font-size: 21px;
+    font-weight: 600;
   }
   .abt-img{
 	  display: flex;
@@ -524,43 +520,50 @@
 	  padding: 20px 30px;
 	  border-radius: 4px;
   }
-  .small1{
-	  background-color: #ffffffe3;
-	  padding: 20px 30px;
-	  border-radius: 4px;
-  }
-  .small2{
-	  background-color: #ffffffe3;
-	  padding: 20px 30px;
-	  border-radius: 4px;
-  }
-  .small3{
-	  background-color: #ffffffe3;
-	  padding: 20px 30px;
-	  border-radius: 4px;
-  }
-  
-  .small >h4,.small1 > h4,.small2 > h4,.small3 > h4{
-	  text-align: center;
+  .small >h4>a{
 	  font-weight: 900;
+	  color:gray;
   }
-  .small >a,.small1 >a,.small2>a,.small3>a{
+  .small >h4{
+	  text-align: center;
+  }
+  .small >a{
 	  font-size:12px;
 	  font-weight: 600;
+	 color: gray;
   }
+  .big .box:hover .small >a{
+	  color: white;
+  }.big .box1:hover .small >a{
+	  color: white;
+  }.big .box2:hover .small >a{
+	  color: white;
+  }.big .box3:hover .small >a{
+	  color: white;
+  }
+  .big .box:hover .small >h4>a{
+	  color: white;
+  }.big .box1:hover .small >h4>a{
+	  color: white;
+  }.big .box2:hover .small >h4>a{
+	  color: white;
+  }.big .box3:hover .small >h4>a{
+	  color: white;
+  }
+  
 	  .big .box:hover .small{
 	  background:var(--primary-color);
 	  color: white;
 	}
-	  .big .box1:hover .small1{
+	  .big .box1:hover .small{
 	  background:var(--primary-color);
 	  color: white;
 	}
-	  .big .box2:hover .small2 {
+	  .big .box2:hover .small {
 	  background:var(--primary-color);
 	  color: white;
 	}
-	  .big .box3:hover .small3 {
+	  .big .box3:hover .small{
 	  background:var(--primary-color);
 	  color: white;
     }
@@ -633,10 +636,6 @@
    .adding:hover .foliobox-icon{
 	   opacity:1;
    }
-   .foliobox-icon:hover i{
-	    background-color: var(--primary-color);
-		cursor:pointer;
-   }
 .mirror{
 	position:absolute;
 	opacity:0;
@@ -677,7 +676,7 @@
 		  padding-bottom:80px;
    }
    .content4{
-	  margin-top:60px;
+	    margin-top:60px;
 	    padding-top:40px;
 	  
    }
@@ -703,11 +702,12 @@
 		right:0;
 		width:100%;
 	    padding:10px 20px;
-	    background-color:#ffffff8c;
-	   bottom:99px;
-	   position:absolute;
-	  text-align:center;
-	  
+	    background-color: #ffffffed;
+	    bottom:99px;
+	    position:absolute;
+	    text-align:center;
+		display: flex;
+		justify-content: space-evenly;
 	}
 
 	.maker:hover .name-icon{
@@ -757,21 +757,20 @@
 	  line-height:80px;
    }
    .content5 h1{
-	   color:#5c4d4d;
-	   font-size:35px;
+	   color: #5c4d4d;
+       font-size: 30px;
+       font-weight: 500
    }
    .content5 p{
-	   color:#5c4d4d;
-	   padding-top:20px;
-	   
-	   font-size:20px;
-	    line-height:30px;
+	  color: #5c4d4d;
+      font-size: 17px;
+      line-height: 30px;
    }
    .money{
 	  margin-top:20px;
 	  background-color:white;
 	  text-align:center;
-	  line-height:50px;
+	  line-height:70px;
 	  border-radius:10px;
 	  overflow:hidden;
 	  box-shadow:0 0 5px #ccc;
@@ -802,7 +801,9 @@
 	   padding:10px;
    }
    .money .business h3{
-	    background-color:#4dc4d3;
+	   background-color: #4dc4d3;
+       color: white;
+    }
    }
    .money p del{
 	   color:#5c4d4d47;
@@ -825,13 +826,13 @@
 	   background-color: var(--primary-color);
    }
    .buy-order h3{
-	   text-align:center;
-	   font-size:18px;
-	    background-color: var(--primary-color);
-		line-height:17px;
-	   overflow:hidden;
-	    margin:0 auto;
-       transform:translate(99px, -50px)rotate(45deg);
+	    font-size: 14px;
+		background-color: var(--primary-color);
+		line-height: 8px;
+		overflow: hidden;
+		margin: 0 auto;
+		transform: translate(105px, -71px)rotate(45deg);
+		color: white;
    }
    .buy-order{
 	   height:0px;
@@ -846,6 +847,7 @@
   }
   .content6{
 	  text-align:center;
+	  padding-top: 40px;
   }
   .content6 h2{
 	  margin-bottom:30px;
@@ -861,7 +863,12 @@
    }
   .first{
 	  margin-top:10px;
-	  padding-left:100px;
+	  padding:10px;
+	  background-color:white;
+	  font-weight: 600;
+  }
+  .padding{
+	  padding-bottom: 50px;
   }
    .first a{
 	    text-decoration:none;

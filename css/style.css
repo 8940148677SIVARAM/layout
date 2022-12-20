@@ -285,7 +285,10 @@
 	   margin-bottom: 30px;
 	   text-align: left;
    }
-   
+   .why-choose > a:hover{
+	   color:#00bcd4;
+	   background: #fff;
+   }
   /*=====about style====*/
   .abt-section{
 	  padding:80px 0;
@@ -647,7 +650,7 @@
 		right:0;
 		width:100%;
 	    padding:10px 20px;
-	    background-color: #ffffffed;
+	    background-color: #ffffffbd;
 	    bottom:99px;
 	    position:absolute;
 	    text-align:center;
@@ -863,25 +866,109 @@
    
    /*===footer start===*/
    .footer{
-	    background-color:black;
-        padding:40px 0 ;
+        background-color:#bdd7d987;
+		padding:80px 0 ;
    }
-   .base{
-	    background-color:#ff5821;
-   height:300px;
-    margin-top:20px;
+   .base2 a{
+	   color:black;
+	   text-decoration:none;
    }
-   
+    .base1 a{
+	   color:black;
+	   text-decoration:none;
+   }
+   .base h1{
+	   font-size:20px;
+   }
+   .base p{
+      margin-top:10px;
+	  font-size:13px;
+   }
+   .base h2{
+	   font-size:20px;
+   }
+   .base h5{
+	   margin-top:10px;
+	   font-size:15px;
+   }
+   .base1 h2{
+	   font-size:20px;
+   }
+   .base1 p{
+	   font-size:13px;
+	   margin-top:6px;
+   }
+   .base1 p:hover{
+	   color:#00bcd4;
+   }
+   .base1 i{
+	   padding:5px;
+   }
+   .base h4{
+	   font-size:15px;
+   }
+    .subscribe-btn{
+		display:flex;
+		justify-content:center;
+		margin-top:20px;
+		position:relative;
+		margin-left: 126px;
+		cursor: pointer;
+	}
+	.subscribe-btn .sub{
+		position:absolute;
+		border-radius:30px;
+		background-color:#00bcd4;
+		text-align:center;
+		font-size:18px;
+		color:#fff;
+		height:40px;
+		width:150px;
+		border:1px solid #00bcd4;
+		padding:10px 0;
+		cursor: pointer;
+	}
+	.subscribe-btn .form-controal{
+	   position: absolute;
+	   right: 120px;
+	   border-radius: 30px;
+	   border:1px solid #00bcd4;
+	   padding: 10px 10px;
+   }
+   .sub:focus{
+	   border-color: #00bcd4;
+	   outline:0;
+   }
    /*===footer end===*/
-   
    /*===finish start===*/
    .finish{
-	    background-color:#ff5821;
-          padding:30px 0;
+	   padding: 30px;
    }
    .finish-1{
-	   background-color:black;
-	   height:60px;
+	   margin-right:100px;
+	   font-size:15px;   
+   }
+   .finish-1 a{
+	   color:#00bcd4;
+	   text-decoration:none;
+   }
+   .finish-2{
+	   padding-left:326px;
+   }
+   .finish-2 i{
+	   background-color:#00bcd4;
+	   font-size:22px;
+	   border:2px solid #00bcd4;
+	   border-radius:50%;
+	   height:46px;
+	   width:46px;
+	   padding:10px 0;
+	   text-align:center;
+	   color:#fff;
+   }
+   .finish-2 > a:hover{
+	  background: #fff;
+      color: #fff;
    }
    
    /*===finish end===*/

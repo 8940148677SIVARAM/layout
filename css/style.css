@@ -146,7 +146,12 @@
 	   padding:5px  0;
 	   
    }
-  
+  .logo{
+	font-size: 28px;
+    padding: 10px;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
    h1.logo>a{
 	 display: inline-block;
 	 color: #635551;
@@ -527,6 +532,8 @@
 	  font-size:12px;
 	  font-weight: 600;
 	  color: gray;
+  }.small >a>i{
+	  padding-right: 4px;
   }
   .big .box:hover .small >a{
 	  color: white;
@@ -560,8 +567,18 @@
   } 
   .content2>h3{
 	  font-size:14px;
+	  margin:10px;
   }
-   
+  .content2>h1{
+	  font-size:20px;
+	  font-weight:bold;
+  }
+   .content2>p{
+	   font-style: italic;
+    font-size: 18px;
+	color:#eee;
+	margin:10px;
+   }
    /*===swiping end===*/
    
    /*===images start===*/
@@ -594,6 +611,7 @@
    }
    .adding:hover .mirror{
 	   opacity:1;
+	   transform: translateY(0);
    }
    .adding:hover .foliobox-icon{
 	   opacity:1;
@@ -607,6 +625,8 @@
 	background-color:#ffffffbf;
 	padding-left:20px;
 	margin:22px;
+	transition: all 0.5s ease;
+	transform:translateY(20px);
 }
    .foliobox1 h2{
 	   font-size:20px;
@@ -625,9 +645,12 @@
 	opacity:0;
 	width:90%;
 	text-align:right;
-}.foliobox-icon>a{
+	
+}
+.foliobox-icon>a{
 	color: black;
-}.foliobox-icon>a:hover{
+}
+.foliobox-icon>a:hover{
 	color:var(--primary-color);
 }
 	
@@ -785,13 +808,23 @@
 	  padding:10px;
 	  background-color:white;
 	  font-weight: 600;
+	  display: flex;
+  }.first{
+	  margin-top:10px;
+	  padding:10px;
+	  background-color:white;
+	  font-weight: 600;
+	  display: flex;
   }
   .padding{
 	  padding-bottom: 50px;
   }
+  .down{
+	 margin-left: 480px;
+  }
    .first a{
 	    text-decoration:none;
-		color:#000;
+		color:#656262;
 		line-height:2px;
    }
    .first .fa{
@@ -814,7 +847,7 @@
    .address{
 		box-shadow: 0 0 30px #c6c6c6;
 		position: relative;
-		padding: 30px 30px;
+		padding: 26px 26px;
 		padding-left:90px;
 		background:#fff;
    }
@@ -878,25 +911,27 @@
 	   text-decoration:none;
    }
    .base h1{
-	   font-size:20px;
+	   font-size:30px;
    }
    .base p{
       margin-top:10px;
 	  font-size:13px;
    }
    .base h2{
-	   font-size:20px;
+	   font-size: 16px;
+       font-weight: bold;
    }
    .base h5{
 	   margin-top:10px;
 	   font-size:15px;
    }
    .base1 h2{
-	   font-size:20px;
+	   font-size:17px;
+	   font-weight: 600;
    }
    .base1 p{
-	   font-size:13px;
-	   margin-top:6px;
+	font-size: 14px;
+    margin-top: 14px;
    }
    .base1 p:hover{
 	   color:#00bcd4;
@@ -907,37 +942,49 @@
    .base h4{
 	   font-size:15px;
    }
-    .subscribe-btn{
-		display:flex;
-		justify-content:center;
-		margin-top:20px;
-		position:relative;
-		margin-left: 126px;
-		cursor: pointer;
+	.out-side{
+		border: 2px solid #00bcd45e;
+		border-radius: 25px;
+		background: #fff;
+		padding: 1px;
 	}
-	.subscribe-btn .sub{
-		position:absolute;
-		border-radius:30px;
-		background-color:#00bcd4;
-		text-align:center;
-		font-size:18px;
-		color:#fff;
-		height:40px;
-		width:150px;
-		border:1px solid #00bcd4;
-		padding:10px 0;
+	.sub{
+		position: absolute;
+		right: 86px;
+		transform: translateY(-2px);
+		border-radius: 25px;
+		background-color: #00bcd4;
+		text-align: center;
+		font-size: 16px;
+		color: #fff;
+		height: 45px;
+		border: 1px solid #00bcd4;
+		line-height: 45px;
+		padding: 0px 22px;
 		cursor: pointer;
+		text-align: center;
 	}
-	.subscribe-btn .form-controal{
-	   position: absolute;
-	   right: 120px;
-	   border-radius: 30px;
-	   border:1px solid #00bcd4;
-	   padding: 10px 10px;
-   }
+	.form-controal1{
+       position: relative;
+		left: 2px;
+		bottom: 0px;
+		width: 90%;
+		border: solid 1px #ccc;
+		color: #999;
+		font-size: 16px;
+		padding: 9px 0px;
+		margin: 2px;
+		transform: trnsalateX(4);
+		transform: translate(10px, 0px);
+	}
+	.subscribe>input{
+		border:0;
+	}
+	.sub:hover{
+		background: #04b3c9fa;
+	}
    .sub:focus{
 	   border-color: #00bcd4;
-	   outline:0;
    }
    /*===footer end===*/
    /*===finish start===*/
@@ -955,20 +1002,22 @@
    .finish-2{
 	   padding-left:326px;
    }
-   .finish-2 i{
-	   background-color:#00bcd4;
-	   font-size:22px;
-	   border:2px solid #00bcd4;
-	   border-radius:50%;
-	   height:46px;
-	   width:46px;
-	   padding:10px 0;
-	   text-align:center;
-	   color:#fff;
+   .finish-2 a{
+	font-size: 18px;
+    display: inline-block;
+    background: #00bcd4;
+    color: #fff;
+    line-height:36px;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
    }
-   .finish-2 > a:hover{
-	  background: #fff;
-      color: #fff;
-   }
+   .finish-2 a:hover {
+	  background: #00bcd4bf;
+	  color: #fff;
+	  text-decoration: none;
+}
    
    /*===finish end===*/

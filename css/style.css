@@ -241,7 +241,7 @@
    .why-choose{
 	    background-color: #00bcd4;
 		color: #fff;
-		padding: 30px 20px;
+		padding: 30px;
         border-radius: 10px;
 		position: relative;
 		
@@ -257,40 +257,40 @@
    .choose-items > i{
 	   color: #00bcd4;
 	   font-size: 35px;
+	   margin-bottom:30px;
    } 
    .choose-items > h1{
 	   font-size: 20px;
-	   margin-bottom: 35px;
-	   margin-top: 35px;
+	   margin-bottom: 30px ;
 	   font-weight: 700;
    }
    .choose-items > p{
 	   color: #999;
+	   margin-bottom:1em;
    }
    .why-choose > h1{
-    font-size: 32px;
-	margin-bottom: 40px;
-	text-align: left;
-	line-height: 38px;
-	font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 36px;
+    line-height: 40px;
+    font-weight: 700;
    }
-   .why-choose > a{
+   .text-center > a{
 	   color: #fff;
 	   display: inline-block;
 	   text-decoration: none;
 	   background-color: #4dc4d3;
 	   border-radius: 25px;
 	   padding: 9px 25px;
-	   transform: translateX(62px);
    }
-   .why-choose > a >i{
+   .text-center > a >i{
 	  margin-left: 8px; 
    }
    .why-choose > p{
-	   margin-bottom: 30px;
-	   text-align: left;
+	margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 30px;
    }
-   .why-choose > a:hover{
+   .text-center > a:hover{
 	   color:#00bcd4;
 	   background: #fff;
    }
@@ -308,11 +308,12 @@
 	  margin-bottom: 30px;
   }
   .abt-content > h2{
-	  font-size: 19px;
+	  font-size: 28px;
 	  margin-bottom: 25px;
-	  font-weight: 900;
-	  color: #795548;
-  }.abt-text > h2 >a{
+	  font-weight: 700;
+	  color: #554945;
+  }
+  .abt-text > h2 >a{
 	  color: black;
   }
   .abt-text > h2 >a:hover{
@@ -439,7 +440,7 @@
 		min-height: 210px;
 		background-color:#fff;
 		box-shadow: 0 0 10px #ccc;
-		margin-bottom: 22px;
+		margin-bottom: 20px;
 	}
 	.service-icon{
 		position: absolute;
@@ -748,6 +749,7 @@
    .money h2{
 	    color:#5c4d4d47;
 		font-size:20px;
+		font-family: 'Poppins';
    }
    .money p{
 	   color:#5c4d4d;
@@ -811,7 +813,7 @@
 	  display: flex;
   }.first{
 	  margin-top:10px;
-	  padding:10px;
+	  padding:14px;
 	  background-color:white;
 	  font-weight: 600;
 	  display: flex;
@@ -833,11 +835,19 @@
 	   color:var(--primary-color);
 	   opacity:0.5;
    }
+   .text-right .fa{
+	   color:#000;
+	   font-weight:500;
+   }
     .first a:hover{
 		color:var(--primary-color);
-		
 	}
-  
+	.first:hover a{
+		color:var(--primary-color);
+	}
+ .first:hover .text-right .fa{
+	 color:var(--primary-color);
+ }
    /*===para end===*/
    
    /*===contact start===*/

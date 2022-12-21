@@ -799,7 +799,6 @@
    
    /*===para start===*/
   .para{ 
-      margin:60px 0;
 	  font-family: "Open Sans", sans-serif;
 	   background-color:var(--bg-color);
   }
@@ -842,7 +841,7 @@
    
    /*===contact start===*/
    .contact{
-	    padding: 80px 0px;
+	    padding-top: 15px;
    }
    .address{
 		box-shadow: 0 0 30px #c6c6c6;

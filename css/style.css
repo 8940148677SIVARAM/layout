@@ -231,7 +231,7 @@
 		box-shadow:1px 0 5px -2px black;
 		}
 	   .banner-content{
-		 padding: 214px 0px 100px 120px;
+		 padding: 214px 0px 140px 70px;
 	   }
    
    /*====why choose style===*/
@@ -561,8 +561,9 @@
 	  line-height: 22px;
   }
    .content2 > img{
-	 border-radius:50%;
-     box-shadow:2px 2px 2px 9px #8080804d; 
+	border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 10px;
   } 
   .content2>h3{
 	  font-size:14px;

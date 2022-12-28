@@ -787,8 +787,8 @@
    }
    .buy-order h3{
 	position: absolute;
-    top: 22px;
-    left: 140px;
+    top: 16px;
+    right: -96px;
     width: 100%;
     font-size: 14px;
     background-color: var(--primary-color);

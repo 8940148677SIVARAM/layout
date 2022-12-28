@@ -155,6 +155,8 @@
 		 margin-bottom:-140px;
 		 background-attachment: fixed ;
 		 background-size:cover;
+		 background-position-x: center;
+		 background-position-y: center;
 	     }
 		 
 		.banner-content h1{ 

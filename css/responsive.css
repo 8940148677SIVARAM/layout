@@ -108,7 +108,9 @@
 	.choose-items{
 		margin: 30px 0px 0px;
 		height:auto;
-	}
+	}.d-md-block{
+	   display:block;
+   }
    .mini-bar{
 	    color: #473d3a;
 		font-size: 28px;
@@ -157,9 +159,6 @@
 	.container:{
 		width: 720px;
 	}
-	.d-md-block{
-	   display:block;
-   }
 	.col-md-1{
 	   width:8.33%;
    }

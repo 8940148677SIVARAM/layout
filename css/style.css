@@ -55,6 +55,9 @@
    .justify-content-center{
 	   justify-content: center;
    }
+   .d-none{
+	   display:none;
+   }
    /*====common style===*/
    .btn{
 	  display: inline-block;

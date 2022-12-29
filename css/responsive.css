@@ -109,9 +109,6 @@
 		margin: 30px 0px 0px;
 		height:auto;
 	}
-	.d-md-block{
-	   display:block;
-   }
    .mini-bar{
 	    color: #473d3a;
 		font-size: 28px;
@@ -147,11 +144,22 @@
     margin-top: 17px;
 	padding-left:0px;
 	}
+	.nav-section{
+	   position:relative;
+   }
+   .mini-bar i{
+	   position:absolute;
+	   right:30px;
+	   top:18px;
+   }
 }
 @media(min-width: 768px){
 	.container:{
 		width: 720px;
 	}
+	.d-md-block{
+	   display:block;
+   }
 	.col-md-1{
 	   width:8.33%;
    }
@@ -187,14 +195,6 @@
    }
     .col-md-12{
 	   width:100%;
-   }
-   .nav-section{
-	   position:relative;
-   }
-   .mini-bar i{
-	   position:absolute;
-	   right:30px;
-	   top:18px;
    }
 }
 @media(min-width: 1200px){

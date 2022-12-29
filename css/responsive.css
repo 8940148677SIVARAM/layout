@@ -91,6 +91,9 @@
 	.address{
 		margin:15px 0px;
 	}
+	.d-xs-none{
+		display:none !important;
+	}
 	.d-xs-block{
 		display: block;
 	}

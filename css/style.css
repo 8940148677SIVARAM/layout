@@ -113,7 +113,7 @@
    }
     .nav-section{
 	   padding:5px  0;
-	   
+	   background: #fff;
    }
   .logo{
 	font-size: 28px;
@@ -185,7 +185,6 @@
 		background-color:#584b48;
 		transition: all 0.3s ease;
 		}
-		
 		.bnr-btn a.btn:hover{
 			background-color:#00bcd4;
 		}
